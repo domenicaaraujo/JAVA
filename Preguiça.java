@@ -1,13 +1,40 @@
-package Herança;
+package Polimorfismo;
 
-public class Preguiça extends Animais {
-	private String acao;
+public class Preguiça extends animais {
 	
-	public String getAcao() {
+	private boolean acao, emitirSom;
+
+	public boolean isAcao() {
 		return acao;
-		
-	}public void setAcao(String acao) {
+	}
+
+	public void setAcao(boolean acao) {
 		this.acao = acao;
 	}
 
+	public boolean isEmitirSom() {
+		return emitirSom;
+	}
+
+	public void setEmitirSom(boolean emitirSom) {
+		this.emitirSom = emitirSom;
+	}
+
+	public void setEmitirSom(String string) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void setAcao(String string) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+	
+	
+	
+	
+
+	
 }
